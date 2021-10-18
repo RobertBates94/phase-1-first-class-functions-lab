@@ -10,4 +10,10 @@ function createFareMultiplier (fareMultiplier) {
     }
 }
 
-const fareDouble = createFareMultiplier(2)
+const fareDoubler = createFareMultiplier(2)
+
+const fareTripler = createFareMultiplier(3)
+
+function selectDifferentDrivers (drivers, func) {
+    return func(drivers)
+}
